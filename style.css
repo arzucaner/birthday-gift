@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    color: white;
+    font-weight: bold;  
+}
+
+.image-wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("birthday.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: expand-fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+.title {
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+}
+
+@keyframes expand-fade-in {
+    from {opacity: 0%, width 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+
+}
